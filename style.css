@@ -1,3 +1,12 @@
 body {
     font-family: 'Poppins';
+    background-color:#635985;
+}
+p{
+    font-size: large;
+    font-weight: bold;
+}
+img{
+    display: flex;
+     
 }
