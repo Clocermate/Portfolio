@@ -24,8 +24,8 @@ p {
 
 }
 button{
-    width:10%;
-    height:10%;
+    width:fill;
+    height:fill;
 }
 a {
     text-decoration: none;
