@@ -1,12 +1,23 @@
 body {
     font-family: 'Poppins';
-    background-color:#635985;
+   
 }
 p{
     font-size: large;
     font-weight: bold;
 }
-img{
-    display: flex;
-     
+.home-img{
+    float:right;
+    width:50%;
+    height:50%;
+}
+a{
+    text-decoration: none;
+
+}
+.front-end{
+    float:left;
+}
+.back-end{
+    float:right;
 }
