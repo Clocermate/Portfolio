@@ -47,17 +47,17 @@ button{
     align-items: center;
 }
 .align{
-   float: left;
-}
-.contact{
-    text-align: right;
-    float:right;
-    width: 40%;
-    height: 40%;
-}
-.greet{
-    font-size:medium
-}
-.contactme{
-    font-size:small
-}
+    float: left;
+ }
+ .contact{
+     text-align: right;
+     float:right;
+     width: 40%;
+     height: 40%;
+ }
+ .greet{
+     font-size:medium
+ }
+ .contactme{
+     font-size:small
+ }
