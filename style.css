@@ -1,6 +1,13 @@
+/*Home*/
 body {
     font-family: 'Poppins';
-
+    background:linear-gradient(#ECC9EE,#C9A7EB,#FFF9DE);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin:10px;
+   
 }
 
 p {
@@ -9,43 +16,83 @@ p {
 }
 
 .home-img {
-    float: right;
-    width: 50%;
-    height: 50%;
-}
+    float:right;
+    width:30%;
+    height:30%;
+   
+    border-radius: 10%;
 
+}
+button{
+    width:10%;
+    height:10%;
+}
 a {
     text-decoration: none;
-
-}
-
-.front-end {
-    float: left;
-    width: 40%;
-    height: 40%;
-}
-
-.back-end {
-    float: right;
-    width: 40%;
-    height: 40%;
-    display: flex;
-}
-
-.front-lang {
-    float: left;
-    
-}
-
-.back-lang {
-    float: right;
+    color:black;
+    font-size: large;
+    font-weight: bolder;
+    margin-right: 5%;
 }
 .what{
     text-align: center;
 }
-button{
-    align-items: center;
+
+ .offer{
+    padding-right:10%;
+    padding-left: 5%;
+    font-size:80%;
+ }
+
+ .offering{
+    padding-right:5%;
+    padding-left: 5%;
+    font-size: 50%;
+    display:flex
+ }
+
+
+
+ /*Skills*/
+ .body2{
+    margin:10px;
+ }
+ .image{
+    display:flex;
+ }
+.image1{
+    padding-right: 20%;
 }
+.image2{
+    padding-left:20%;
+    padding-right: 2%;
+}
+.lang{
+    display: flex;
+}
+.lang1{
+    padding: 5%;
+}
+.lang2{
+    padding-left:80%;
+}
+
+/*Projects*/
+
+ .end{
+    font-size: medium;
+    display: flex;
+    align-items: left;
+    padding-top:30%;
+    padding-left: 5%;
+ }
+.names{
+    padding-top:30%;
+    font-size:small;
+    display:flex;
+    align-items: left;
+}
+/*Contact Me*/
 .align{
     float: left;
  }
@@ -59,12 +106,5 @@ button{
      font-size:medium
  }
  .contactme{
-     font-size:small
- }
- .offering{
-    padding-top: 10%;
- }
- tc{
-    padding-right:10%;
-    padding-left: 5%;
+     font-size:small;
  }
