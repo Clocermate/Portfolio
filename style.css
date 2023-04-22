@@ -1,27 +1,48 @@
 body {
     font-family: 'Poppins';
-   
+
 }
-p{
+
+p {
     font-size: large;
     font-weight: bold;
 }
-.home-img{
-    float:right;
-    width:50%;
-    height:50%;
+
+.home-img {
+    float: right;
+    width: 50%;
+    height: 50%;
 }
-a{
+
+a {
     text-decoration: none;
 
 }
-.front-end{
-    float:left;
-    width:40%;
-    height:40%;
+
+.front-end {
+    float: left;
+    width: 40%;
+    height: 40%;
 }
-.back-end{
-    float:right;
-    width:40%;
-    height:40%;
+
+.back-end {
+    float: right;
+    width: 40%;
+    height: 40%;
+    display: flex;
+}
+
+.front-lang {
+    float: left;
+    
+}
+
+.back-lang {
+    float: right;
+}
+.what{
+    text-align: center;
+}
+button{
+    align-items: center;
 }
