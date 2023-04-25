@@ -1,13 +1,13 @@
 /*Home*/
 body {
     font-family: 'Poppins';
-    background:linear-gradient(#ECC9EE,#C9A7EB,#FFF9DE);
+   background-color:#2A2F4F;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     margin:10px;
-   
+   color:aliceblue;
 }
 
 p {
@@ -29,7 +29,7 @@ button{
 }
 a {
     text-decoration: none;
-    color:black;
+    color:aliceblue;
     font-size: large;
     font-weight: bolder;
     margin-right: 5%;
