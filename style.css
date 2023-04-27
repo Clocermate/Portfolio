@@ -57,13 +57,14 @@ a {
 
  /*Skills*/
     .img1{
-        border-radius: 50%;
+        border-radius: 10%;
     }
     .img2{
-        border-radius: 20%;
+        border-radius: 10%;
     }
     .head1{
         float:left;
+        margin: 10px;
     }
     .lang1{
         float: left;
