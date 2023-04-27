@@ -56,29 +56,24 @@ a {
 
 
  /*Skills*/
- .body2{
-    margin:10px;
- }
- .image{
-    display:flex;
- }
-.image1{
-    padding-right: 20%;
-}
-.image2{
-    padding-left:20%;
-    padding-right: 2%;
-}
-.lang{
-    display: flex;
-}
-.lang1{
-    padding: 5%;
-}
-.lang2{
-    padding-left:80%;
-}
-
+    .img1{
+        border-radius: 50%;
+    }
+    .img2{
+        border-radius: 20%;
+    }
+    .head1{
+        float:left;
+    }
+    .lang1{
+        float: left;
+    }
+    .head2{
+        float:right;
+    }
+    .lang2{
+        float: right;
+    }
 /*Projects*/
 .level{
     display:flex;
@@ -99,14 +94,19 @@ a {
  .contact{
      text-align: right;
      float:right;
-     width: 40%;
-     height: 40%;
+     width: 30%;
+     margin-right: 29px;
+     border-radius: 10%;
+     height: 30%;
  }
  .greet{
-     font-size:medium
+     font-size:large;
  }
  .contactme{
-     font-size:small;
+     font-size:medium;
+ }
+ .contact-me{
+    display: inline;
  }
  .about{
     float: right;
