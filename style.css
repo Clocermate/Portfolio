@@ -323,3 +323,13 @@ a {
       fill: #ccc;
       font-size: 11px;
   }
+  /*Support Me */
+  .sponsor{
+    margin-top: 1%;
+    width:12%;
+    height: 10%;
+    border-radius: 10%;
+  }
+  .sponsor-link{
+    display: flex;
+  }
