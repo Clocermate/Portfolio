@@ -56,28 +56,30 @@ a {
 
 
  /*Skills*/
- .front-end{
-   float: right;
- }
  .front-name{
+    color: #9BA4B5;
+    font-size: large;
     display: flex;
-    margin-right: 23%;
-    margin-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
  }
  .back-name{
+    color: #9BA4B5;
+    font-size: large;
     display: flex;
-    margin-right: 20%;
-    margin-left: 6%;
+    margin-right: auto;
+    margin-left: auto;
  }
-.languages{
+ .languages{
         float: left;
         border-radius: 40%;
         background-color: #394867;
-        margin: 4%;
-        margin-top: 1%;
+        
+         margin: 4%;
+         margin-top: 1%;
         width: 17%;
         height: 10%;
-}
+ }
 /*Projects*/
 .level{
     display:flex;
