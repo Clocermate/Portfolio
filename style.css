@@ -59,16 +59,22 @@ a {
  .front-end{
    float: right;
  }
- .lang-name{
+ .front-name{
     display: flex;
-    margin-right: 13%;
-    margin-left: 4%;
+    margin-right: 23%;
+    margin-left: 6%;
+ }
+ .back-name{
+    display: flex;
+    margin-right: 20%;
+    margin-left: 6%;
  }
 .languages{
         float: left;
         border-radius: 40%;
         background-color: #394867;
-        margin: 10px;
+        margin: 4%;
+        margin-top: 1%;
         width: 17%;
         height: 10%;
 }
