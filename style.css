@@ -56,24 +56,23 @@ a {
 
 
  /*Skills*/
-    .img1{
-        border-radius: 10%;
+ .front-end{
+   float: left;
+   display: flex;
+ }
+    .languages{
+        border-radius: 40%;
+        background-color: #394867;
+        margin: 20px;
+        width: 15%;
+        height: 10%;
     }
-    .img2{
-        border-radius: 10%;
-    }
-    .head1{
-        float:left;
-        margin: 10px;
-    }
-    .lang1{
-        float: left;
-    }
-    .head2{
-        float:right;
-    }
-    .lang2{
-        float: right;
+    .languages1{
+        border-radius: 40%;
+        background-color: #394867;
+        margin: 20px;
+        width: 20%;
+        height: 10%;
     }
 /*Projects*/
 .level{
