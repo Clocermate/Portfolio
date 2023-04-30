@@ -58,16 +58,20 @@ a {
  /*Skills*/
  .front-end{
    float: right;
-
  }
-    .languages{
+ .lang-name{
+    display: flex;
+    margin-right: 13%;
+    margin-left: 4%;
+ }
+.languages{
         float: left;
         border-radius: 40%;
         background-color: #394867;
         margin: 10px;
-        width: 15%;
+        width: 17%;
         height: 10%;
-    }
+}
 /*Projects*/
 .level{
     display:flex;
