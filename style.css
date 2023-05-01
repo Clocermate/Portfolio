@@ -53,75 +53,6 @@ a {
     display:flex
  }
 
-
-
- /*Skills*/
- .front-name{
-    color: #9BA4B5;
-    font-size: large;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
- }
- .back-name{
-    color: #9BA4B5;
-    font-size: large;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
- }
- .languages{
-        float: left;
-        border-radius: 40%;
-        background-color: #394867;
-        
-         margin: 4%;
-         margin-top: 1%;
-        width: 17%;
-        height: 10%;
- }
-/*Projects*/
-.level{
-    display:flex;
-   margin-bottom: 10%;
-    margin-right:34px;
-    margin-left: 20px;
-    position: relative;
-    margin-top: 30px;
-    border-radius: 30%;
-    border:20px;
-}
-
-
-/*Contact Me*/
-.align{
-    float: left;
- }
- .contact{
-     text-align: right;
-     float:right;
-     width: 30%;
-     margin-right: 29px;
-     border-radius: 10%;
-     height: 30%;
- }
- .greet{
-     font-size:large;
- }
- .contactme{
-     font-size:medium;
- }
- .contact-me{
-    display: inline;
- }
- .about{
-    float: right;
-    width:20%;
-    border-radius: 10%;
-    height: 20%;
-    margin-bottom: 10px;
-    margin-right: 10%;
- }
  /* Github Contributions */
 
  .contribute{
@@ -332,6 +263,88 @@ a {
   .support{
     text-align: center;
   }
- .support-me{
+  .sup{
+    display: flex;
+  }
+  .buy{
+        float: left;
+        border-radius: 10%;
+        background-color: #394867;
+        width: 40%;
+        margin-right: 100%;
+        margin-left: 10%;
+  }
+  .sponsor{
+    float: right;
+    border-radius: 1%;
+    background-color: #394867;
+    margin-right: 25%;
+    margin-left: 5%;
+  }
 
+ /*Skills*/
+ .front-name{
+    color: #9BA4B5;
+    font-size: large;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ .back-name{
+    color: #9BA4B5;
+    font-size: large;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ .languages{
+        float: left;
+        border-radius: 40%;
+        background-color: #394867;
+         margin: 4%;
+         margin-top: 1%;
+        width: 17%;
+        height: 10%;
+ }
+/*Projects*/
+.level{
+    display:flex;
+   margin-bottom: 10%;
+    margin-right:34px;
+    margin-left: 20px;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 30%;
+    border:20px;
+}
+
+
+/*Contact Me*/
+.align{
+    float: left;
+ }
+ .contact{
+     text-align: right;
+     float:right;
+     width: 30%;
+     margin-right: 29px;
+     border-radius: 10%;
+     height: 30%;
+ }
+ .greet{
+     font-size:large;
+ }
+ .contactme{
+     font-size:medium;
+ }
+ .contact-me{
+    display: inline;
+ }
+ .about{
+    float: right;
+    width:20%;
+    border-radius: 10%;
+    height: 20%;
+    margin-bottom: 10px;
+    margin-right: 10%;
  }
