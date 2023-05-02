@@ -259,28 +259,7 @@ a {
       fill: #ccc;
       font-size: 11px;
   }
-  /*Support Me */
-  .support{
-    text-align: center;
-  }
-  .sup{
-    display: flex;
-  }
-  .buy{
-        float: left;
-        border-radius: 10%;
-        background-color: #394867;
-        width: 40%;
-        margin-right: 100%;
-        margin-left: 10%;
-  }
-  .sponsor{
-    float: right;
-    border-radius: 1%;
-    background-color: #394867;
-    margin-right: 25%;
-    margin-left: 5%;
-  }
+  
 
  /*Skills*/
  .front-name{
