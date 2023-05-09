@@ -23,6 +23,9 @@ body{
     background: var(--bg-color);
     color: var(--text-color);
 }
+a{
+    text-decoration: none;
+}
 .header{
     position:fixed;
     top: 0;
@@ -34,16 +37,19 @@ body{
     justify-content:space-between ;
     align-items: center;
     z-index: 100;
+  
 }
 .logo{
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
+    cursor: default;
 }
 .navbar a{
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
+    transition: 3s;
 }
 .navbar a:hover{
     color: var(--main-color);
