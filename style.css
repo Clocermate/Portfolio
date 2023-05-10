@@ -103,7 +103,7 @@ span {
   color: var(--main-color);
 }
 .home-content p {
-  font-size: 1.6rem;
+  font-size: 180%;
 }
 
 .social-media a {
@@ -160,7 +160,7 @@ box-shadow: none;
   line-height: 1.2;
 }
 .about-content p{
-  font-size: 1.6rem;
+  font-size: 190%;
   margin: 2rem 0 3rem;
 }
 .services h2{
