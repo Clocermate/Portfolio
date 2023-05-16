@@ -23,4 +23,12 @@ window.onscroll = () => {
 let header=document.querySelector('header');
 header.classList.toggle('sticky',window.scrollY>100)
 
+
+
+let menuIcon=document.querySelector('#menu-icon');
+let navbar=document.querySelector('.mavbar');
+menuIcon.onclick=()=>{
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
+}
 };
