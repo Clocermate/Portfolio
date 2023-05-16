@@ -96,6 +96,18 @@ section {
 
 .home-img img {
   width: 35vw;
+  animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-2.4rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
 .home-content h1 {
@@ -416,5 +428,20 @@ span {
   }
   .contact form .input-box input{
     width: 100%;
+  }
+}
+@media(max-width:365px){
+  .home-img img{
+    width: 90vw;
+  }
+  .about-img img{
+    width: 90vw;
+  }
+  .footer{
+    flex-direction: column-reverse;
+  }
+  .footer p{
+    text-align: center;
+    margin-top: 2rem;
   }
 }
