@@ -46,3 +46,10 @@ delay:200
 
 
 
+const typed=new Typed('.multiple-text',{
+  strings:['Frontend Developer','Backend Developer','Full Stack Developer','Video Editor'],
+  typeSpeed:100,
+  typeSpeed:100,
+  backDelay:1000,
+  loop:true
+})
