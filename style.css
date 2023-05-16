@@ -136,12 +136,12 @@ span {
   color: var(--second-bg-color);
   letter-spacing: 0.1rem;
   font-weight: 600;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-.btn:hover{
-box-shadow: none;
+.btn:hover {
+  box-shadow: none;
 }
-.about{
+.about {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,49 +151,71 @@ box-shadow: none;
 .about-img img {
   width: 35vw;
 }
-.heading{
+.heading {
   text-align: center;
   font-size: 4.5rem;
 }
-.about-content h2{
+.about-content h2 {
   text-align: left;
   line-height: 1.2;
 }
-.about-content p{
+.about-content p {
   font-size: 190%;
   margin: 2rem 0 3rem;
 }
-.services h2{
+.services h2 {
   margin-bottom: 5rem;
 }
-.services-container{
+.services-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
-.services-container .services-box{
+.services-container .services-box {
   flex: 1 1 30rem;
   background: var(--second-bg-color);
   padding: 3rem 2rem 4rem;
   border-radius: 2rem;
   text-align: center;
-  border: .2rem solid var(--bg-color);
-  transition: .5s ease;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.5s ease;
 }
-.services-container .services-box:hover{
+.services-container .services-box:hover {
   border-color: var(--main-color);
   transform: scale(1.02);
 }
-.services-box i{
+.services-box i {
   font-size: 7rem;
   color: var(--main-color);
 }
-.services-box h3{
-  font-size: 2.6rem ;
+.services-box h3 {
+  font-size: 2.6rem;
 }
-.services-box p{
+.services-box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
+}
+.portfolio {
+  background: var(--second-bg-color);
+}
+.portfolio h2 {
+  margin-bottom: 4rem;
+}
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+.portfolio-container .portfolio-box {
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 1 rem var(--bg-color);
+  overflow: hidden;
+  display: flex;
+}
+.portfolio-box img{
+  width: 100%;
 }
