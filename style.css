@@ -410,3 +410,11 @@ span {
     grid-template-columns: 1fr;
   }
 }
+@media(max-width:450px){
+  html{
+    font-size: 50%;
+  }
+  .contact form .input-box input{
+    width: 100%;
+  }
+}
