@@ -351,5 +351,15 @@ span {
   top: 100%;
   left: 0;
   width: 100%;
+  padding: 1 rem 3%;
+  background: var(--bg-color);
+  border-top: .1rem solid rgba(0, 0, 0, .2);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+}
+
+.navbar a{
+  display: block;
+  font-size: 2rem;
+  margin: 3rem 0;
 }
 }
