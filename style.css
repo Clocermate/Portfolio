@@ -45,6 +45,10 @@ a {
   z-index: 100;
 }
 
+.header .sticky{
+  border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
 .logo {
   font-size: 2.5rem;
   color: var(--text-color);
@@ -323,4 +327,29 @@ span {
 .footer-iconTop a i{
   font-size: 2.4rem;
   color: var(--second-bg-color);
+}
+/* BREAKPOINTS */
+
+@media(max-width:991px){
+   .header{
+    padding: 2rem 3%;
+   }
+   section{
+    padding: 10rem 3% 2rem;
+   }
+   .footer{
+    padding: 2rem 3%;
+   }
+}
+@media(max-width:768px){
+#menu-icon{
+  display: block;
+}
+
+.navbar{
+  position:absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
 }
