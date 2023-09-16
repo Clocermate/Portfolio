@@ -25,3 +25,17 @@ nav ul li{
     list-style: none;
     margin: 0 23px;
 }
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.firstSection div{
+    width: 30%;
+}
+.leftSection{
+    background-color: red;
+}
+.rightSection{
+    background-color: red;
+}

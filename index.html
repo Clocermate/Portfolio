@@ -7,26 +7,75 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(56, 56, 180);
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 23px 0;
+      }
+      .firstSection div {
+        width: 30%;
+      }
+      .leftSection {
+      background-color: aqua;
+      }
+      .rightSection {
+        justify-content: space-around;
+      }
+    </style>
   </head>
   <body>
     <header>
       <nav>
         <div class="left">Clocermate's Portfolio</div>
         <div class="right">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Projects</li>
-                <li>Contact Me</li>
-            </ul>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact Me</li>
+          </ul>
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+            Hi, My name is Clocermate
+            <div>and I am a Web Developer</div>
+        </div>
+        <div class="rightSection">
+            <img src="bg.png" alt="">
+        </div>
+      </section>
+    </main>
   </body>
 </html>
