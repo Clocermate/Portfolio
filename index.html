@@ -4,76 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clocermate - Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <style>
       * {
         margin: 0;
         padding: 0;
       }
       body {
-        background-color: rgb(0, 0, 33);
+        background-color: rgb(0, 0, 23);
         color: white;
-        font-family: "Poppins", sans-serif;
+        font-family: 'Poppins', sans-serif;
       }
-      nav {
+      nav{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 80px;
-        background-color: rgb(56, 56, 180);
+        height: 90px;
+        background-color: rgb(21, 21, 119);;
       }
-      .left {
+      .left{
         font-size: 1.5rem;
       }
-      nav ul {
+      nav ul{
         display: flex;
         justify-content: center;
       }
-      nav ul li {
+      nav ul li{
         list-style: none;
         margin: 0 23px;
       }
-      .firstSection {
+      .firstSection{
         display: flex;
         justify-content: space-around;
-        margin: 23px 0;
+        align-items: center;
+        margin: 80px 0;
+     
       }
-      .firstSection div {
+      .firstSection >div{
         width: 30%;
       }
-      .leftSection {
-      background-color: aqua;
+      .leftSection{
+       
+        font-size: 2.7rem;
+       
       }
-      .rightSection {
-        justify-content: space-around;
+      .rightSection img{
+        width: 80%;
+
+      }
+      .leftSection span{
+        color: rgb(170, 106, 230);
       }
     </style>
   </head>
   <body>
     <header>
       <nav>
-        <div class="left">Clocermate's Portfolio</div>
-        <div class="right">
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Projects</li>
-            <li>Contact Me</li>
-          </ul>
-        </div>
-      </nav>
+      <div class="left">Clocermate'S Portfolio</div>
+      <div class="right">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <li>Contact Me</li>
+        </ul>
+      </div>
+    </nav>
     </header>
     <main>
       <section class="firstSection">
         <div class="leftSection">
-            Hi, My name is Clocermate
-            <div>and I am a Web Developer</div>
+        Hi, My name is <span>Clocermate</span>
+        <div>and I am a Passionate</div>
+        <div>Web Developer</div>
         </div>
         <div class="rightSection">
-            <img src="bg.png" alt="">
+          <img src="bg.png" alt="">
         </div>
       </section>
     </main>
