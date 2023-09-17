@@ -34,6 +34,15 @@
       nav ul li{
         list-style: none;
         margin: 0 23px;
+        
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover{
+        font-size: 1.05rem;
+        color: rgb(135, 135, 247);
       }
       .firstSection{
         display: flex;
@@ -46,15 +55,17 @@
         width: 30%;
       }
       .leftSection{
-       
-        font-size: 2.7rem;
+        font-size: 3rem;
        
       }
       .rightSection img{
         width: 80%;
 
       }
-      .leftSection span{
+      .purple{
+        color: rgb(170, 106, 230);
+      }
+      #element{
         color: rgb(170, 106, 230);
       }
     </style>
@@ -62,14 +73,14 @@
   <body>
     <header>
       <nav>
-      <div class="left">Clocermate'S Portfolio</div>
+      <div class="left">Narzuu'S Portfolio</div>
       <div class="right">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Projects</li>
-          <li>Contact Me</li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
         </ul>
       </div>
     </nav>
@@ -77,14 +88,22 @@
     <main>
       <section class="firstSection">
         <div class="leftSection">
-        Hi, My name is <span>Clocermate</span>
+        Hi, My name is <span id="purple">Narzuu</span>
         <div>and I am a Passionate</div>
-        <div>Web Developer</div>
+      
+        <span id="element"></span>
         </div>
         <div class="rightSection">
           <img src="bg.png" alt="">
         </div>
       </section>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Devloper', 'Content Creator','Video Edtior'],
+          typeSpeed: 50,
+        });
+      </script>
     </main>
   </body>
 </html>
