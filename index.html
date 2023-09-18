@@ -1,198 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clocermate - Developer Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        background-color: rgb(0, 0, 23);
-        color: white;
-        font-family: "Poppins", sans-serif;
-      }
-      nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 90px;
-        background-color: rgb(21, 21, 119);
-      }
-      .left {
-        font-size: 1.5rem;
-      }
-      nav ul {
-        display: flex;
-        justify-content: center;
-      }
-      nav ul li {
-        list-style: none;
-        margin: 0 23px;
-      }
-      nav ul li a {
-        text-decoration: none;
-        color: white;
-      }
-      nav ul li a:hover {
-        font-size: 1.05rem;
-        color: rgb(135, 135, 247);
-      }
-      .firstSection {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 215px 0;
-      }
-      .firstSection > div {
-        width: 30%;
-      }
-      .leftSection {
-        font-size: 3rem;
-      }
-      .rightSection img {
-        width: 80%;
-      }
-      .text-gray {
-        color: gray;
-      }
-      .purple {
-        color: rgb(170, 106, 230);
-      }
-      #element {
-        color: rgb(170, 106, 230);
-      }
-      .secondSection {
-        margin: auto;
-        max-width: 80vw;
-      }
-      .secondSection h1 {
-        font-size: 2rem;
-      }
-      .line {
-        background-color: #828bf3;
-        height: 1.2px;
-        margin: 40px 84px;
-        border: 0;
-      }
-      .secondSection .box {
-        background: white;
-        width: 80vw;
-        height: 3px;
-        margin: 50px 0;
-        display: flex;
-      }
-      .secondSection .vertical {
-        height: 93px;
-        width: 1px;
-        background-color: white;
 
-        margin: 0 100px;
-      }
-      .vertical-title {
-        width: 150px;
-    position: relative;
-    top: 75px;
-      }
-      .vertical-desc {
-      }
-      .image-top {
-        width: 23px;
-        position: relative;
-        top: -30px;
-        left: -9px;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="left">Narzuu'S Portfolio</div>
-        <div class="right">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Contact Me</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section class="firstSection">
-        <div class="leftSection">
-          Hi, My name is <span id="purple">Narzuu</span>
-          <div>and I am a Passionate</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clocermate - Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
 
-          <span id="element"></span>
+    body {
+      background-color: rgb(0, 0, 23);
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 90px;
+      background-color: rgb(21, 21, 119);
+    }
+
+    .left {
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      font-size: 1.05rem;
+      color: rgb(135, 135, 247);
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 215px 0;
+    }
+
+    .firstSection>div {
+      width: 30%;
+    }
+
+    .leftSection {
+      font-size: 3rem;
+    }
+
+    .rightSection img {
+      width: 80%;
+    }
+
+    .text-gray {
+      color: gray;
+    }
+
+    .purple {
+      color: rgb(170, 106, 230);
+    }
+
+    #element {
+      color: rgb(170, 106, 230);
+    }
+
+    .secondSection {
+      margin: auto;
+      max-width: 80vw;
+    }
+
+    .secondSection h1 {
+      font-size: 2rem;
+    }
+
+    .line {
+      background-color: #828bf3;
+      height: 1.2px;
+      margin: 40px 84px;
+      border: 0;
+    }
+
+    .secondSection .box {
+      background: white;
+      width: 77vw;
+      height: 3px;
+      margin: 50px 0;
+      display: flex;
+    }
+
+    .secondSection .vertical {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+
+      margin: 0 120px;
+    }
+
+    .vertical-title {
+      width: 150px;
+      position: relative;
+      top: 75px;
+    }
+
+    .vertical-desc {
+      position: relative;
+      top: 86px;
+      width: 150px;
+      font-size: 9px;
+      color: gray;
+    }
+    .image-top {
+      width: 23px;
+      position: relative;
+      top: -30px;
+      left: -9px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Narzuu'S Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span id="purple">Narzuu</span>
+        <div>and I am a Passionate</div>
+
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="bg.png" alt="" />
+      </div>
+    </section>
+    <hr class="line" />
+    <section class="secondSection">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Work Experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="html.png" alt="" />
+          <div class="vertical-title">Html Developer(2010-2012)</div>
+          <div class="vertical-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id optio
+            esse a ut iusto at quas iste eveniet aut voluptatum tempore
+            beatae, qui dignissimos molestiae! Nobis necessitatibus
+            reprehenderit porro vel.
+          </div>
         </div>
-        <div class="rightSection">
-          <img src="bg.png" alt="" />
-        </div>
-      </section>
-      <hr class="line" />
-      <section class="secondSection">
-        <span class="text-gray">What I have done so far</span>
-        <h1>Work Experience</h1>
-        <div class="box">
-          <div class="vertical">
-            <img class="image-top" src="devloper.png" alt="" />
-            <div class="vertical-title">Html Developer(2010-2012)</div>
-            <div class="vertical-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id optio
-              esse a ut iusto at quas iste eveniet aut voluptatum tempore
-              beatae, qui dignissimos molestiae! Nobis necessitatibus
-              reprehenderit porro vel.
-            </div>
-          </div>
-          <div class="vertical">
-            <img class="image-top" src="devloper.png" alt="" />
-            <div class="vertical-title">React Developer(2012-2015)</div>
-            <div class="vertical-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id optio
-              esse a ut iusto at quas iste eveniet aut voluptatum tempore
-              beatae, qui dignissimos molestiae! Nobis necessitatibus
-              reprehenderit porro vel.
-            </div>
-          </div>
-          <div class="vertical">
-            <img class="image-top" src="devloper.png" alt="" />
-            <div class="vertical-title">Nodejs Developer(2015-2017)</div>
-            <div class="vertical-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id optio
-              esse a ut iusto at quas iste eveniet aut voluptatum tempore
-              beatae, qui dignissimos molestiae! Nobis necessitatibus
-              reprehenderit porro vel.
-            </div>
-          </div>
-          <div class="vertical">
-            <img class="image-top" src="devloper.png" alt="" />
-            <div class="vertical-title">Mern Stack Developer(2018-2023)</div>
-            <div class="vertical-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id optio
-              esse a ut iusto at quas iste eveniet aut voluptatum tempore
-              beatae, qui dignissimos molestiae! Nobis necessitatibus
-              reprehenderit porro vel.
-            </div>
+        <div class="vertical">
+          <img class="image-top" src="react.png" alt="" />
+          <div class="vertical-title">React Developer(2012-2015)</div>
+          <div class="vertical-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id optio
+            esse a ut iusto at quas iste eveniet aut voluptatum tempore
+            beatae, qui dignissimos molestiae! Nobis necessitatibus
+            reprehenderit porro vel.
           </div>
         </div>
-      </section>
-    </main>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#element", {
-        strings: ["Web Devloper", "Content Creator", "Video Edtior"],
-        typeSpeed: 50,
-      });
-    </script>
-  </body>
+        <div class="vertical">
+          <img class="image-top" src="nodejs.png" alt="" />
+          <div class="vertical-title">Nodejs Developer(2015-2017)</div>
+          <div class="vertical-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id optio
+            esse a ut iusto at quas iste eveniet aut voluptatum tempore
+            beatae, qui dignissimos molestiae! Nobis necessitatibus
+            reprehenderit porro vel.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="java.png" alt="" />
+          <div class="vertical-title">Java Developer(2018-2021)</div>
+          <div class="vertical-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id optio
+            esse a ut iusto at quas iste eveniet aut voluptatum tempore
+            beatae, qui dignissimos molestiae! Nobis necessitatibus
+            reprehenderit porro vel.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="js.png" alt="" />
+          <div class="vertical-title">JavaScript Developer(2021-2023)</div>
+          <div class="vertical-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id optio
+            esse a ut iusto at quas iste eveniet aut voluptatum tempore
+            beatae, qui dignissimos molestiae! Nobis necessitatibus
+            reprehenderit porro vel.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="yt.png" alt="" />
+          <div class="vertical-title">Gaming Creator -Youtube(2023-Now)</div>
+          <div class="vertical-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id optio
+            esse a ut iusto at quas iste eveniet aut voluptatum tempore
+            beatae, qui dignissimos molestiae! Nobis necessitatibus
+            reprehenderit porro vel.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Web Devloper", "Content Creator", "Video Edtior"],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
 </html>
